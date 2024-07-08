@@ -125,40 +125,50 @@
 }
 
 @include media($max: $mobile) {
-	.section {
-		.content {
-			flex-direction: column;
+    .section {
+        .content {
+            flex-direction: column;
 
-			> div {
-				flex-basis: 100% !important;
-			}
+            > div {
+                flex-basis: 100% !important;
+            }
 
-			.container {
-				padding: 2rem 1.25rem;
-			}
+            .container {
+                padding: 2rem 1.25rem;
+            }
 
-			.image {
-				padding: 1rem;
-				max-height: 400px; // Add this line to limit the height on mobile devices
-				&.technicalSvg {
-					position: absolute;
-					top: 50%;
-					left: 50%;
-					transform: translate(-50%, -50%);
-					height: 140%;
-					z-index: -1;
-				}
-				img {
-					height: 100%;
-					width: auto;
-					object-fit: cover;
-					border-radius: 2rem;
-				}
-			}
+            .copy{
+                padding-top: 50px;
+            }
 
-			.copy {
-				padding: 0;
-			}
-		}
-	}
+            .image {
+                padding: 1rem;
+                max-height: 400px; // Limit the height on mobile devices
+				margin-bottom: 2rem;
+				margin-top: -2rem;
+
+                &.technicalSvg {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 100%; // Adjusted height
+                    z-index: -1;
+                }
+
+                img {
+                    height: auto; // Adjusted to auto
+					max-height: 400px;
+                    width: 100%; // Adjusted to 100%
+                    object-fit: cover;
+                    border-radius: 2rem;
+                }
+            }
+
+            .copy {
+                padding: 0;
+				padding-top: 30px;
+            }
+        }
+    }
 }
