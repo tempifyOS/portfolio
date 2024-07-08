@@ -25,16 +25,16 @@ import about from '../../../styles/sections/index/about.module.scss';
  */
 export default function About() {
 	return (
-		<Section classProp={about.section}>	
+		<Section classProp={about.section} id="about-me">	
 			<Container spacing={['verticalXXXLrg']}>
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="With a diverse skill set that includes UX design, UI design, full stack development, operational architecture, systems design, photography, and branding, I am a well-rounded digital professional."
+					subTitle="As a student at the University of Texas at San Antonio, I strive to widen and sharpen my skillset by constantly learning modern technologies."
 				/>
 				<section className={about.content}>
 					<div className={about.image}>
-						<img src="/img/family-photo.jpg" alt="Nelson family photo"/>
+						<img src="/img/ryanhunt-headshot.jpg" alt="Nelson family photo"/>
 						{/* <Image src="/img/family-photo.jpg" width={600} height={800}/> */}
 					</div>
 					<div className={about.copy} >
@@ -43,17 +43,17 @@ export default function About() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fat', 'ear-listen' ]}
-							copy="In addition to my design and technical expertise—I also have strong leadership, time management, and multitasking skills—honed through my experience as a business owner / managing partner, husband, and father of two. Outside of work, I enjoy staying active through sports such as hockey and snowboarding. I am confident in my ability to bring passion and value to any project."
+							copy="In addition to working knowledge in design and technical work-I also have strong leadership, time management, and multitasking skills—honed through my as a student, and full-time employee. Outside of work, I enjoy staying active through fitness such as weightlifting and running. I am confident in my ability to bring passion and value to any project."
 						/>
 						<BadgesBlock 
-							title="Reasearch and planning" 
+							title="Research and planning" 
 							containerClass={about.container}
 							list={methods} 
 							fullContainer="fullContainer"
 							block="methods" 
 							icon="fingerprint"
-							copy="One of my favorite aspects of creating is planning the architecture of a project. From Design Systems to Brand Strategy—I enjoy working with the many touch points of user experience."
-							//invertedColor="invertedColor"
+							copy="One of my favorite aspects of creating projects is planning the architecture of a project. Creating the bare bones of a project and brand, from research - the product operations, I enjoy engineering products as a whole."
+							// invertedColor="invertedColor"
 							headerIcon={`${about.icon}`}
 						/>
 					</div>
