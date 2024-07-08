@@ -1,19 +1,19 @@
 {
 	"acknowledgments": [
 		{ 
-			"person": "Jihad Hassan - Marketing Director",
-			"link": "",
-			"note": "Thank you for all the advice and feedback."
+			"person": "UTSA Computer Science",
+			"link": "https://sciences.utsa.edu/computer-science/",
+			"note": "Thank you to all the professors for teaching me thus far."
 		},
 		{ 
-			"person": "Colorpong - Artist",
-			"link": "ttps://www.youworkforthem.com/designer/536/colorpong?aff=1115",
-			"note": "Checkout their amazing vector illustrations."
+			"person": "Bro Code - YouTube Influencer",
+			"link": "https://www.youtube.com/@BroCodez",
+			"note": "Amazing tutorials on learning different programming languages."
 		},
 		{ 
-			"person": "Brittany Chiang - Software Engineer",
-			"link": "https://brittanychiang.com/",
-			"note": "A major inspiration to create an open source theme."
+			"person": "Javascript Mastery - YouTube Influencer",
+			"link": "https://www.youtube.com/c/javascriptmastery",
+			"note": "Amazing tutorials on Full-Stack projects."
 		},
 		{ 
 			"person": "Vercel - Platform",
