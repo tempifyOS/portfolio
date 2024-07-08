@@ -4,15 +4,16 @@
 		"title": "About Me"
 	},
 	{
-		"url": "/case-studies",
-		"title": "Case Studies"
-	},
-	{
-		"url": "/articles",
-		"title": "Articles"
+		"url": "/education",
+		"title": "Education"
 	},
 	{
 		"url": "/projects",
 		"title": "Projects"
+	},
+	{
+		"url": "/Ryan_Hunt_Resume.pdf",
+		"title": "Download Resume",
+		"download": true
 	}
 ]
