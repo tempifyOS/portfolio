@@ -8,6 +8,7 @@ import FeaturedProjects	from '../components/sections/projects/featured'
 import Color 		from '../components/utils/page.colors.util'
 
 import colors 		from '../content/index/_colors.json'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 //
 export default function HomePage() {
