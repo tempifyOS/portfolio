@@ -139,6 +139,7 @@
 
 			.image {
 				padding: 1rem;
+				max-height: 400px; // Add this line to limit the height on mobile devices
 				&.technicalSvg {
 					position: absolute;
 					top: 50%;
@@ -146,6 +147,12 @@
 					transform: translate(-50%, -50%);
 					height: 140%;
 					z-index: -1;
+				}
+				img {
+					height: 100%;
+					width: auto;
+					object-fit: cover;
+					border-radius: 2rem;
 				}
 			}
 
